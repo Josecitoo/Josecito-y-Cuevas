@@ -1,0 +1,162 @@
+body{
+    background-color: #afafaf;
+    font-family: Georgia,times,serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin:0;
+}
+
+h1{
+    text-align: center;
+    font-family: Courier ;
+    line-height : 1.3em;
+    font-size: 2rem;
+}
+
+p{
+    font-family:Comic Sans MS, Comic Sans, cursive ;
+    margin-bottom: 1.6em;
+}
+    
+.container {
+    width: 85%;
+    max-width:850px;
+    margin: 0 auto;
+}
+    
+    
+.header {  
+    background: #333;
+    color:white;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    }
+    
+.header a {
+    color:  rgba(250, 242, 242, 0.842);
+    text-decoration: none;
+}
+    
+.Tabaquismo-nav-container {
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+    
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+.navigation ul li {
+    display: inline-block;
+    }
+    
+.navigation ul li a {
+    font-family: Bradley Hand, cursive;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    color: black;
+    background: white;
+}
+    
+.Tabaquismo {
+    color: white;
+    border-bottom: solid;
+    border-color: black;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    letter-spacing: 10px;
+    font-size: 1.2em;
+} 
+
+form{
+    width: 100%;
+    margin: auto;
+    background: gray;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+form h2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#boton{
+    padding: 1rem 0;
+    color: white;
+    background: #333;
+}
+
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+    .footer {
+        background: #333;
+        padding:4rem 0;
+        text-align: center;
+        margin-top:6rem;
+        color: white;
+    }
+    
+    .main { padding-top: 12rem;}
+    
+@media only screen and (max-width: 767px){
+        
+    .navigation ul {
+        display: none;
+    
+        }
+    .navigation {
+        width:100%;
+        margin-top: 1rem;
+    }
+    .navigation ul.show  {
+        display:block;
+    }
+    .navigation ul li {
+        display: inline-block;
+    }
+        
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+        background: #889592;
+    }
+    
+}
+    
+h2 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+    
